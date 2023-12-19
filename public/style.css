@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'cursive', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn_send {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btn_send:hover {
+    background-color: #45a049;
+}
+
+#btn_clear {
+    background-color: #f44336;
+    color: white;
+}
+
+#btn_clear:hover {
+    background-color: #d32f2f;
+}
+
+.chat-container {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-bubble {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.usuario {
+    background-color: #4CAF50;
+    color: white;
+    align-self: flex-end;
+}
+
+.bot {
+    background-color: #ddd;
+    color: black;
+    align-self: flex-start;
+}
+
+.error {
+    background-color: #ff6666;
+    color: white;
+    align-self: flex-start;
+}
